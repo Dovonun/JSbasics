@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    background-color: black;
+    color: snow;
+  }
+  .btn {
+    color: black;
+    background-color: red;
+  }
+</style>
+<body>
+  <p class="my-p">Some Text</p>
+  <button class="btn">Click Me</button>
+  <input type="text" name="rename-btn" id="input">
+</body>
+<script>
+  const btn = document.querySelector('.btn')
+  const input = document.querySelector('#input')
+  const handleClick = () => btn.innerHTML = input.value
+
+  btn.addEventListener('click', handleClick)
+</script>
+</html>
