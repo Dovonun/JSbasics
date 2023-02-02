@@ -82,29 +82,7 @@
             "source": [
                 "const log = (msg) => console.log(msg) || msg\n\nlog('Hello World')"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "Hello World",
-                                ""
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "items": [
-                        {
-                            "mime": "text/plain",
-                            "value": [
-                                "\u001b[32m'Hello World'\u001b[39m"
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "typescript",
@@ -160,57 +138,21 @@
             "source": [
                 "const alice = {\n  name: 'alice',\n  age: '20'\n}\n\nconst name = alice.name\nconst age = alice.age\n\nconsole.log(name, age);"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "alice 20",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "typescript",
             "source": [
                 "const alice = {\n  name: 'alice',\n  age: '20'\n}\n\nconst {name, age} = alice\n\nconsole.log(name, age);"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "alice 20",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "typescript",
             "source": [
                 "const students = ['alice', 'bob']\n\nconst [alice, bob] = students\n\nconsole.log(alice, bob);"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "alice bob",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "typescript",
