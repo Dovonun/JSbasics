@@ -94,21 +94,21 @@
         {
             "language": "typescript",
             "source": [
-                "const sqrt = x => x * x\nsqrt(5)"
+                "const pow = x => x * x\npow(5)"
             ],
             "outputs": []
         },
         {
             "language": "typescript",
             "source": [
-                "const sqrt = x => {\n  x * x\n}\nsqrt(5)"
+                "const pow = x => {\n  x * x\n}\npow(5)"
             ],
             "outputs": []
         },
         {
             "language": "typescript",
             "source": [
-                "const sqrt = x => {\n  return x * x\n}\nsqrt(5)"
+                "const pow = x => {\n  return x * x\n}\npow(5)"
             ],
             "outputs": []
         },
